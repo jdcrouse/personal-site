@@ -1,0 +1,43 @@
+.Nav {
+  font-family: myriad-pro, sans-serif;
+  font-style: normal;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  color: #2b2b2b;
+  background: #fff;
+}
+
+.Nav-header {
+  font-size: 100px;
+  font-weight: 400;
+}
+
+.primary-nav {
+  position: relative;
+  text-align: center;
+  -webkit-transition: border-color 0.15s;
+  transition: border-color 0.15s;
+}
+
+.primary-nav__item,
+.primary-nav__list {
+  font-weight: 600;
+  display: inline-block;
+}
+
+.primary-nav__link {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.075em;
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #5e5e5e;
+  padding: 2.9rem 2rem 1.5rem;
+}
+
+a {
+  background-color: transparent;
+}
