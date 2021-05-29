@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-<link rel="stylesheet" href="https://use.typekit.net/dnh0ust.css"></link>;
 
 ReactDOM.render(
   <React.StrictMode>
