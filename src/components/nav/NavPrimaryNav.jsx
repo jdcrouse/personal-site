@@ -18,7 +18,7 @@ const PrimaryNav = () => (
   <nav className="primary-nav">
     <ul className="primary-nav__list">
       {links.map((link) => (
-        <PrimaryNavItem text={link.text} path={link.path} />
+        <PrimaryNavItem text={link.text} path={link.path} key={link.text} />
       ))}
     </ul>
   </nav>

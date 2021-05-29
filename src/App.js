@@ -1,10 +1,9 @@
-import NavBar from "./components/nav/NavBar";
+import Routes from "./Routes";
+
 import "./App.css";
 
-function App() {
-  return <NavBar />;
-}
+const App = () => {
+  return <Routes />;
+};
 
 export default App;
-
-
