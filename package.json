@@ -42,12 +42,8 @@
     ]
   },
   "homepage": "https://jdcrou.se/",
-  "husky": {
-    "hooks": {
-      "pre-commit": "prettier --write ."
-    }
-  },
   "devDependencies": {
-    "prettier": "^2.3.0"
+    "prettier": "^2.3.0",
+    "pretty-quick": "^3.1.0"
   }
 }
