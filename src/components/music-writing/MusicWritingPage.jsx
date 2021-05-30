@@ -3,6 +3,7 @@ import ArticlePreviewCard from "./ArticlePreviewCard";
 
 const DUMMY_DATA = [
   {
+    id: 2,
     title: "Cool article number one",
     preview: "This is a really great cool fun article",
     author: "Jason Derulo",
@@ -11,6 +12,7 @@ const DUMMY_DATA = [
       "https://assets.vogue.com/photos/5da740f872c7a00009108cec/16:9/w_1600%2Cc_limit/0.%2520and%25201.%2520Nicki%2520Minaj-1.jpg",
   },
   {
+    id: 3,
     title: "Less fun article",
     preview: "This one isn't as good tbh",
     author: "Mason Mouse",
@@ -19,6 +21,7 @@ const DUMMY_DATA = [
       "https://assets.vogue.com/photos/5da740f872c7a00009108cec/16:9/w_1600%2Cc_limit/0.%2520and%25201.%2520Nicki%2520Minaj-1.jpg",
   },
   {
+    id: 4,
     title: "Best article ever written",
     preview: "No article has been better than this one",
     author: "Sonjay Esuorc",
@@ -27,6 +30,7 @@ const DUMMY_DATA = [
       "https://assets.vogue.com/photos/5da740f872c7a00009108cec/16:9/w_1600%2Cc_limit/0.%2520and%25201.%2520Nicki%2520Minaj-1.jpg",
   },
   {
+    id: 5,
     title: "Ehhhhhh",
     preview: "Yee haw i sure do love writing",
     author: "Brock Hampton",
@@ -45,7 +49,7 @@ const MusicWritingPage = () => {
   return (
     <>
       {articlePreviews.map((preview_data) => (
-        <ArticlePreviewCard {...preview_data} key={preview_data.title} />
+        <ArticlePreviewCard {...preview_data} key={preview_data.id} />
       ))}
     </>
   );
