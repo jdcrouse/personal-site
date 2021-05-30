@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 
 import NavBar from "./components/nav/NavBar";
 import Home from "./components/home/HomeRoute";
@@ -7,7 +7,7 @@ import MusicWriting from "./components/music-writing/MusicWritingRoute";
 import Photography from "./components/photography/PhotographyRoute";
 
 const Routes = () => (
-  <Router>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Route path="/">
       <NavBar />
       {Home}
@@ -15,7 +15,7 @@ const Routes = () => (
       {MusicWriting}
       {Photography}
     </Route>
-  </Router>
+  </BrowserRouter>
 );
 
 export default Routes;
