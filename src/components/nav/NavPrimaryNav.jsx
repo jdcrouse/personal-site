@@ -1,7 +1,7 @@
 import "./Nav.css";
 
 const links = [
-  { text: "About", path: "/about" },
+  { text: "About", path: "/about-me" },
   { text: "Music writing", path: "/music-writing" },
   { text: "Photography", path: "/photography" },
 ];
